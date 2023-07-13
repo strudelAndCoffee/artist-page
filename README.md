@@ -2,4 +2,4 @@
 
 _a work in progress..._
 
-Built using NextJS 13 and Tailwind.
+Built using NextJS 13, TypeScript, and Tailwind.
