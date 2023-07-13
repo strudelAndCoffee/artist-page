@@ -8,10 +8,7 @@ export default function Hero() {
         width={300}
         height={450}
         alt="stevie at drums"
-        style={{
-          width: '100%',
-          overflow: 'hidden',
-        }}
+        style={{ overflow: 'hidden' }}
       />
     </div>
   )
