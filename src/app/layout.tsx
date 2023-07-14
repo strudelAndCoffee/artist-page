@@ -1,6 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import Navber from './components/Navbar'
 import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,8 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        {children}
+      <body
+        className={`flex flex-col items-center min-h-screen pt-3 px-10 gap-3 ${inter.className}`}
+      >
+        <Navber />
+        <main style={{ width: '100%' }}>{children}</main>
         <Footer />
       </body>
     </html>
