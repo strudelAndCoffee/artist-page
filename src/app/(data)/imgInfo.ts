@@ -4,6 +4,7 @@ export interface ImageType {
   width: number
   height: number
   alt: string
+  credit: string
 }
 
 const images: ImageType[] = [
@@ -13,6 +14,7 @@ const images: ImageType[] = [
     width: 300,
     height: 450,
     alt: 'Stevie at drums',
+    credit: 'Ray Swartz (@raybernarts)',
   },
   {
     index: 1,
@@ -20,6 +22,7 @@ const images: ImageType[] = [
     width: 500,
     height: 300,
     alt: 'Stevie at drums',
+    credit: 'Diego Whitten (@mdwhitten)',
   },
 ]
 

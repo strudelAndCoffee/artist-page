@@ -10,15 +10,15 @@ export default function Hero() {
     images[currentImgIndex]
   )
 
-  useEffect(() => {
-    setTimeout(() => {
-      currentImgIndex < images.length - 1
-        ? setCurrentImgIndex((prev) => prev + 1)
-        : setCurrentImgIndex(0)
-    }, 10000)
-    console.log(currentImgIndex)
-    setCurrentImg(images[currentImgIndex])
-  }, [currentImgIndex])
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     currentImgIndex < images.length - 1
+  //       ? setCurrentImgIndex((prev) => prev + 1)
+  //       : setCurrentImgIndex(0)
+  //   }, 10000)
+  //   console.log(currentImgIndex)
+  //   setCurrentImg(images[currentImgIndex])
+  // }, [currentImgIndex])
 
   return (
     <Image
